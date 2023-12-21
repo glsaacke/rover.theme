@@ -1,0 +1,22 @@
+{
+  "name": "rover-theme",
+  "displayName": "Rover Theme",
+  "description": "Rover VSCode Theme",
+  "version": "0.0.1",
+  "publisher": "glsaacke",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rover",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rover-color-theme.json"
+      }
+    ]
+  }
+}

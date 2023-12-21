@@ -4,6 +4,10 @@
   "description": "Rover VSCode Theme",
   "version": "0.0.1",
   "publisher": "glsaacke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glsaacke/rover-theme.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },

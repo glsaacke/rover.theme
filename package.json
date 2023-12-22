@@ -8,6 +8,23 @@
     "type": "git",
     "url": "https://github.com/glsaacke/rover-theme.git"
   },
+  "keywords": [
+    "dark",
+    "dark theme",
+    "space",
+    "space theme",
+    "mars",
+    "mars theme",
+    "rover",
+    "rover theme",
+    "orange",
+    "orange theme",
+    "cool",
+    "cool theme",
+    "vibrant",
+    "vibrant theme",
+    "glsaacke"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -28,5 +45,5 @@
       }
     ]
   },
-  "icon": "images/RoverLogo2M.png"
+  "icon": "images/RoverLogo3M.png"
 }

@@ -1,5 +1,16 @@
 # Change Log
 
+## [0.4.0]
+12/21/2023
+
+### Added
+- New extension icon
+
+### Fixed
+- Package keyword tweaks
+
+
+
 ## [0.3.3]
 12/21/2023
 

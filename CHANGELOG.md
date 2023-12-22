@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.4.0]
+## [v0.4.0]
 12/21/2023
 
 ### Added
@@ -8,35 +8,35 @@
 
 ### Fixed
 - Package keyword tweaks
+<br>
 
 
-
-## [0.3.3]
+## [v0.3.3]
 12/21/2023
 
 ### Fixed
 - Photo in README
+<br>
 
 
-
-## [0.3.2]
+## [v0.3.2]
 12/21/2023
 
 ### Fixed
 - Extension icon call in package
+<br>
 
 
-
-## [0.3.1]
+## [v0.3.1]
 12/21/2023
 
 ### Fixed
 - Extension icon
 - Photo in README
+<br>
 
 
-
-## [0.3.0] 
+## [v0.3.0] 
 12/21/2023
 
 ### Added
@@ -44,18 +44,18 @@
 
 ### Fixed
 - Numbers in changelog
+<br>
 
 
-
-## [0.2.0]
+## [v0.2.0]
 12/21/2023
 
 ### Added
 -Extension icon
+<br>
 
 
-
-## [0.1.0]
+## [v0.1.0]
 12/20/2023
 
 ### Added

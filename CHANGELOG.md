@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.3.2]
+12/21/2023
+
+### Fixed
+- Extension icon call in package
+
+
+
 ## [0.3.1]
 12/21/2023
 

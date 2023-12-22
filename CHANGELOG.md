@@ -1,14 +1,31 @@
 # Change Log
 
-## [0.2.0] 
+## [0.3.1]
+12/21/2023
+
+### Fixed
+- Extension icon
+- Photo in README
+
+
+
+## [0.3.0] 
 12/21/2023
 
 ### Added
-- Extension icon
 - More detailed README
 
 ### Fixed
 - Numbers in changelog
+
+
+
+## [0.2.0]
+12/21/2023
+
+### Added
+-Extension icon
+
 
 
 ## [0.1.0]

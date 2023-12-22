@@ -1,5 +1,21 @@
 # Change Log
 
+## [v0.4.2]
+12/21/2023
+
+### Fixed
+- Changelog version updated
+<br>
+
+
+## [v0.4.1]
+12/21/2023
+
+### Fixed
+- Changelog formatting
+<br>
+
+
 ## [v0.4.0]
 12/21/2023
 

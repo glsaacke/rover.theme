@@ -27,5 +27,6 @@
         "path": "./themes/Rover-color-theme-2.json"
       }
     ]
-  }
+  },
+  "icon": "images/RoverLogo.png"
 }

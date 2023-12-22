@@ -1,6 +1,6 @@
 # Rover Theme
 
-![Example Code](.images/RoverExample.png)
+![Example Code](.images/RoverExample.PNG)
 
 ## Contents
 

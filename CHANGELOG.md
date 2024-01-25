@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.4.4]
+1/24/2024
+
+### Fixed
+- Issue with styling for certain keyword tokens
+<br>
+
+
 ## [v0.4.3]
 1/24/2024
 

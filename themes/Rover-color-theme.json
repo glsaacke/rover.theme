@@ -1032,7 +1032,8 @@
 			"scope": [
 				"keyword.control.conditional",
 				"keyword.control.loop",
-				"keyword.control.flow"
+				"keyword.control.flow",
+				"keyword.control.exception"
 			],
 			"settings": {
 				"foreground": "#DFDFDF",
@@ -1042,7 +1043,7 @@
 			"scope": [
 				"entity.name.variable.field.cs",
 				"entity.name.variable.parameter.cs",
-				"entity.name.variable.local.cs"
+				"entity.name.variable.local.cs",
 			],
 			"settings": {
 				"foreground": "#A77283"

@@ -1032,7 +1032,8 @@
 			"scope": [
 				"keyword.control.conditional",
 				"keyword.control.loop",
-				"keyword.control.flow"
+				"keyword.control.flow",
+				"keyword.control.exception"
 			],
 			"settings": {
 				"foreground": "#DFDFDF",

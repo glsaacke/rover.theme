@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.4.3]
+1/24/2024
+
+### Fixed
+- Issue with styling for certain variable tokens
+<br>
+
+
 ## [v0.4.2]
 12/21/2023
 

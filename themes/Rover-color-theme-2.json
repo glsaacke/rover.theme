@@ -1043,7 +1043,8 @@
 			"scope": [
 				"entity.name.variable.field.cs",
 				"entity.name.variable.parameter.cs",
-				"entity.name.variable.local.cs"
+				"entity.name.variable.local.cs",
+				"variable.other.object.property.cs"
 			],
 			"settings": {
 				"foreground": "#A77283"

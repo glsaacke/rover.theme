@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.4.5]
+1/29/2024
+
+### Fixed
+- Issue with styling for created array names
+<br>
+
+
 ## [v0.4.4]
 1/24/2024
 

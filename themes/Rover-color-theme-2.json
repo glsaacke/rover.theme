@@ -856,7 +856,8 @@
 				"keyword.operator.or.regexp",
 				"keyword.operator.quantifier",
 				"punctuation.definition.group.regexp",
-				"punctuation.definition.character-class"
+				"punctuation.definition.character-class",
+				"punctuation.accessor.js"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"

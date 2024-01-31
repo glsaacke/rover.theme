@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.4.6]
+1/30/2024
+
+### Fixed
+- Inconsistencies in token highlighting with JavaScript. Theme should now be fully compatible with js.
+<br>
+
+
 ## [v0.4.5]
 1/29/2024
 

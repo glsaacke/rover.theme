@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.4.7]
+1/30/2024
+
+### Fixed
+- Minor language adjustment in readme & changelog
+
 ## [v0.4.6]
 1/30/2024
 

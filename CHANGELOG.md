@@ -1,4 +1,11 @@
 # Change Log
+## [v0.4.8]
+2/8/2024
+
+### Fixed
+- Minor adjustments to punctuation coloring
+<br>
+
 
 ## [v0.4.7]
 1/30/2024

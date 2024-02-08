@@ -745,7 +745,8 @@
 		},
 		{
 			"scope": [
-				"string"
+				"string",
+				"punctuation.definition.string.end"
 			],
 			"settings": {
 				"foreground": "#E0BC87"
@@ -824,7 +825,8 @@
 		{
 			"scope": [
 				"punctuation.terminator",
-				"punctuation.separator"
+				"punctuation.separator",
+				"punctuation.accessor"
 			],
 			"settings": {
 				"foreground": "#DFDFDF",

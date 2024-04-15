@@ -1047,7 +1047,8 @@
 				"entity.name.variable.field.cs",
 				"entity.name.variable.parameter.cs",
 				"entity.name.variable.local.cs",
-				"variable.other.object.property.cs"
+				"variable.other.object.property.cs",
+				"variable.other.object.cs"
 			],
 			"settings": {
 				"foreground": "#A77283"

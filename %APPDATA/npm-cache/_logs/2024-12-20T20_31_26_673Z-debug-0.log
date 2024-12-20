@@ -1,0 +1,1055 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v21.6.1
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:C:\Users\gavin\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\gavin\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 19ms
+16 timing npm:load:configload Completed in 20ms
+17 timing config:load:flatten Completed in 4ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install vsce
+21 verbose argv "install" "--global" "vsce"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:C:\Users\gavin\documents\github\rover.theme\%APPDATA\npm-cache\_logs\2024-12-20T20_31_26_673Z-
+25 verbose logfile C:\Users\gavin\documents\github\rover.theme\%APPDATA\npm-cache\_logs\2024-12-20T20_31_26_673Z-debug-0.log
+26 timing npm:load:logFile Completed in 16ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 95ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 5ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest vsce@*
+37 http fetch GET 200 https://registry.npmjs.org/vsce 288ms (cache miss)
+38 silly placeDep ROOT vsce@2.15.0 OK for:  want: *
+39 silly fetch manifest azure-devops-node-api@^11.0.1
+40 silly fetch manifest chalk@^2.4.2
+41 silly fetch manifest cheerio@^1.0.0-rc.9
+42 silly fetch manifest commander@^6.1.0
+43 silly fetch manifest glob@^7.0.6
+44 silly fetch manifest hosted-git-info@^4.0.2
+45 silly fetch manifest keytar@^7.7.0
+46 silly fetch manifest leven@^3.1.0
+47 silly fetch manifest markdown-it@^12.3.2
+48 silly fetch manifest mime@^1.3.4
+49 silly fetch manifest minimatch@^3.0.3
+50 silly fetch manifest parse-semver@^1.1.1
+51 silly fetch manifest read@^1.0.7
+52 silly fetch manifest semver@^5.1.0
+53 silly fetch manifest tmp@^0.2.1
+54 silly fetch manifest typed-rest-client@^1.8.4
+55 silly fetch manifest url-join@^4.0.1
+56 silly fetch manifest xml2js@^0.4.23
+57 silly fetch manifest yauzl@^2.3.1
+58 silly fetch manifest yazl@^2.2.2
+59 http fetch GET 200 https://registry.npmjs.org/azure-devops-node-api 262ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/chalk 271ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/read 364ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/yauzl 365ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/tmp 370ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/yazl 370ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/cheerio 383ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/typed-rest-client 377ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/markdown-it 386ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 390ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/semver 388ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/minimatch 392ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/commander 458ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/leven 660ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/url-join 658ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/parse-semver 677ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/mime 701ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/xml2js 701ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/keytar 734ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/glob 738ms (cache miss)
+79 timing idealTree:#root Completed in 1058ms
+80 silly placeDep node_modules/vsce azure-devops-node-api@11.2.0 OK for: vsce@2.15.0 want: ^11.0.1
+81 silly fetch manifest tunnel@0.0.6
+82 silly placeDep node_modules/vsce chalk@2.4.2 OK for: vsce@2.15.0 want: ^2.4.2
+83 silly fetch manifest ansi-styles@^3.2.1
+84 silly fetch manifest supports-color@^5.3.0
+85 silly fetch manifest escape-string-regexp@^1.0.5
+86 silly placeDep node_modules/vsce cheerio@1.0.0 OK for: vsce@2.15.0 want: ^1.0.0-rc.9
+87 silly fetch manifest cheerio-select@^2.1.0
+88 silly fetch manifest dom-serializer@^2.0.0
+89 silly fetch manifest domhandler@^5.0.3
+90 silly fetch manifest domutils@^3.1.0
+91 silly fetch manifest encoding-sniffer@^0.2.0
+92 silly fetch manifest htmlparser2@^9.1.0
+93 silly fetch manifest parse5@^7.1.2
+94 silly fetch manifest parse5-htmlparser2-tree-adapter@^7.0.0
+95 silly fetch manifest parse5-parser-stream@^7.1.2
+96 silly fetch manifest undici@^6.19.5
+97 silly fetch manifest whatwg-mimetype@^4.0.0
+98 silly placeDep node_modules/vsce commander@6.2.1 OK for: vsce@2.15.0 want: ^6.1.0
+99 silly placeDep node_modules/vsce glob@7.2.3 OK for: vsce@2.15.0 want: ^7.0.6
+100 silly fetch manifest once@^1.3.0
+101 silly fetch manifest inflight@^1.0.4
+102 silly fetch manifest inherits@2
+103 silly fetch manifest minimatch@^3.1.1
+104 silly fetch manifest fs.realpath@^1.0.0
+105 silly fetch manifest path-is-absolute@^1.0.0
+106 silly placeDep node_modules/vsce hosted-git-info@4.1.0 OK for: vsce@2.15.0 want: ^4.0.2
+107 silly fetch manifest lru-cache@^6.0.0
+108 silly placeDep node_modules/vsce keytar@7.9.0 OK for: vsce@2.15.0 want: ^7.7.0
+109 silly fetch manifest node-addon-api@^4.3.0
+110 silly fetch manifest prebuild-install@^7.0.1
+111 silly placeDep node_modules/vsce leven@3.1.0 OK for: vsce@2.15.0 want: ^3.1.0
+112 silly placeDep node_modules/vsce markdown-it@12.3.2 OK for: vsce@2.15.0 want: ^12.3.2
+113 silly fetch manifest argparse@^2.0.1
+114 silly fetch manifest entities@~2.1.0
+115 silly fetch manifest linkify-it@^3.0.1
+116 silly fetch manifest mdurl@^1.0.1
+117 silly fetch manifest uc.micro@^1.0.5
+118 silly placeDep node_modules/vsce mime@1.6.0 OK for: vsce@2.15.0 want: ^1.3.4
+119 silly placeDep node_modules/vsce minimatch@3.1.2 OK for: vsce@2.15.0 want: ^3.0.3
+120 silly fetch manifest brace-expansion@^1.1.7
+121 silly placeDep node_modules/vsce parse-semver@1.1.1 OK for: vsce@2.15.0 want: ^1.1.1
+122 silly placeDep node_modules/vsce read@1.0.7 OK for: vsce@2.15.0 want: ^1.0.7
+123 silly fetch manifest mute-stream@~0.0.4
+124 silly placeDep node_modules/vsce semver@5.7.2 OK for: vsce@2.15.0 want: ^5.1.0
+125 silly placeDep node_modules/vsce tmp@0.2.3 OK for: vsce@2.15.0 want: ^0.2.1
+126 silly placeDep node_modules/vsce typed-rest-client@1.8.11 OK for: vsce@2.15.0 want: ^1.8.4
+127 silly fetch manifest qs@^6.9.1
+128 silly fetch manifest underscore@^1.12.1
+129 silly placeDep node_modules/vsce url-join@4.0.1 OK for: vsce@2.15.0 want: ^4.0.1
+130 silly placeDep node_modules/vsce xml2js@0.4.23 OK for: vsce@2.15.0 want: ^0.4.23
+131 silly fetch manifest sax@>=0.6.0
+132 silly fetch manifest xmlbuilder@~11.0.0
+133 silly placeDep node_modules/vsce yauzl@2.10.0 OK for: vsce@2.15.0 want: ^2.3.1
+134 silly fetch manifest fd-slicer@~1.1.0
+135 silly fetch manifest buffer-crc32@~0.2.3
+136 silly placeDep node_modules/vsce yazl@2.5.1 OK for: vsce@2.15.0 want: ^2.2.2
+137 http fetch GET 200 https://registry.npmjs.org/parse5-htmlparser2-tree-adapter 464ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/tunnel 475ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 479ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/encoding-sniffer 484ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/dom-serializer 487ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/parse5-parser-stream 489ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/cheerio-select 501ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/once 495ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 494ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/inherits 503ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/fs.realpath 504ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/ansi-styles 518ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/inflight 508ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 513ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/supports-color 521ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/mdurl 495ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/domhandler 519ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/parse5 518ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/fd-slicer 479ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/argparse 499ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/domutils 522ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/uc.micro 500ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/buffer-crc32 484ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/htmlparser2 527ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/mute-stream 498ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/brace-expansion 504ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/linkify-it 509ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/sax 497ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/entities 515ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/node-addon-api 523ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/underscore 506ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/prebuild-install 527ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 508ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/qs 516ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/lru-cache 539ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/undici 558ms (cache miss)
+173 timing idealTree:node_modules/vsce Completed in 594ms
+174 silly placeDep node_modules/vsce tunnel@0.0.6 OK for: azure-devops-node-api@11.2.0 want: 0.0.6
+175 timing idealTree:node_modules/vsce/node_modules/azure-devops-node-api Completed in 1ms
+176 silly placeDep node_modules/vsce ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+177 silly fetch manifest color-convert@^1.9.0
+178 silly placeDep node_modules/vsce escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+179 silly placeDep node_modules/vsce supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+180 silly fetch manifest has-flag@^3.0.0
+181 http fetch GET 200 https://registry.npmjs.org/color-convert 69ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/has-flag 72ms (cache miss)
+183 timing idealTree:node_modules/vsce/node_modules/chalk Completed in 78ms
+184 silly placeDep node_modules/vsce color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+185 silly fetch manifest color-name@1.1.3
+186 http fetch GET 200 https://registry.npmjs.org/color-name 53ms (cache miss)
+187 timing idealTree:node_modules/vsce/node_modules/ansi-styles Completed in 58ms
+188 silly placeDep node_modules/vsce cheerio-select@2.1.0 OK for: cheerio@1.0.0 want: ^2.1.0
+189 silly fetch manifest boolbase@^1.0.0
+190 silly fetch manifest css-select@^5.1.0
+191 silly fetch manifest css-what@^6.1.0
+192 silly fetch manifest domelementtype@^2.3.0
+193 silly fetch manifest domutils@^3.0.1
+194 silly placeDep node_modules/vsce dom-serializer@2.0.0 OK for: cheerio@1.0.0 want: ^2.0.0
+195 silly fetch manifest domhandler@^5.0.2
+196 silly fetch manifest entities@^4.2.0
+197 silly placeDep node_modules/vsce domhandler@5.0.3 OK for: cheerio@1.0.0 want: ^5.0.3
+198 silly placeDep node_modules/vsce domutils@3.1.0 OK for: cheerio@1.0.0 want: ^3.1.0
+199 silly placeDep node_modules/vsce encoding-sniffer@0.2.0 OK for: cheerio@1.0.0 want: ^0.2.0
+200 silly fetch manifest iconv-lite@^0.6.3
+201 silly fetch manifest whatwg-encoding@^3.1.1
+202 silly placeDep node_modules/vsce htmlparser2@9.1.0 OK for: cheerio@1.0.0 want: ^9.1.0
+203 silly fetch manifest entities@^4.5.0
+204 silly placeDep node_modules/vsce parse5@7.2.1 OK for: cheerio@1.0.0 want: ^7.1.2
+205 silly placeDep node_modules/vsce parse5-htmlparser2-tree-adapter@7.1.0 OK for: cheerio@1.0.0 want: ^7.0.0
+206 silly placeDep node_modules/vsce parse5-parser-stream@7.1.2 OK for: cheerio@1.0.0 want: ^7.1.2
+207 silly placeDep node_modules/vsce undici@6.21.0 OK for: cheerio@1.0.0 want: ^6.19.5
+208 silly placeDep node_modules/vsce whatwg-mimetype@4.0.0 OK for: cheerio@1.0.0 want: ^4.0.0
+209 http fetch GET 200 https://registry.npmjs.org/domelementtype 67ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/boolbase 92ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/iconv-lite 87ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/css-select 96ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding 94ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/css-what 103ms (cache miss)
+215 timing idealTree:node_modules/vsce/node_modules/cheerio Completed in 115ms
+216 silly placeDep node_modules/vsce boolbase@1.0.0 OK for: cheerio-select@2.1.0 want: ^1.0.0
+217 silly placeDep node_modules/vsce css-select@5.1.0 OK for: cheerio-select@2.1.0 want: ^5.1.0
+218 silly fetch manifest nth-check@^2.0.1
+219 silly placeDep node_modules/vsce css-what@6.1.0 OK for: cheerio-select@2.1.0 want: ^6.1.0
+220 silly placeDep node_modules/vsce domelementtype@2.3.0 OK for: cheerio-select@2.1.0 want: ^2.3.0
+221 http fetch GET 200 https://registry.npmjs.org/nth-check 61ms (cache miss)
+222 timing idealTree:node_modules/vsce/node_modules/cheerio-select Completed in 70ms
+223 timing idealTree:node_modules/vsce/node_modules/boolbase Completed in 0ms
+224 silly placeDep node_modules/vsce color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+225 timing idealTree:node_modules/vsce/node_modules/color-convert Completed in 2ms
+226 timing idealTree:node_modules/vsce/node_modules/color-name Completed in 0ms
+227 timing idealTree:node_modules/vsce/node_modules/commander Completed in 0ms
+228 silly placeDep node_modules/vsce nth-check@2.1.1 OK for: css-select@5.1.0 want: ^2.0.1
+229 timing idealTree:node_modules/vsce/node_modules/css-select Completed in 2ms
+230 timing idealTree:node_modules/vsce/node_modules/css-what Completed in 0ms
+231 silly placeDep node_modules/vsce entities@4.5.0 OK for: dom-serializer@2.0.0 want: ^4.2.0
+232 timing idealTree:node_modules/vsce/node_modules/dom-serializer Completed in 3ms
+233 timing idealTree:node_modules/vsce/node_modules/domelementtype Completed in 0ms
+234 timing idealTree:node_modules/vsce/node_modules/domhandler Completed in 0ms
+235 timing idealTree:node_modules/vsce/node_modules/domutils Completed in 0ms
+236 silly placeDep node_modules/vsce iconv-lite@0.6.3 OK for: encoding-sniffer@0.2.0 want: ^0.6.3
+237 silly fetch manifest safer-buffer@>= 2.1.2 < 3.0.0
+238 silly placeDep node_modules/vsce whatwg-encoding@3.1.1 OK for: encoding-sniffer@0.2.0 want: ^3.1.1
+239 http fetch GET 200 https://registry.npmjs.org/safer-buffer 55ms (cache miss)
+240 timing idealTree:node_modules/vsce/node_modules/encoding-sniffer Completed in 59ms
+241 timing idealTree:node_modules/vsce/node_modules/entities Completed in 0ms
+242 timing idealTree:node_modules/vsce/node_modules/escape-string-regexp Completed in 0ms
+243 silly placeDep node_modules/vsce fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+244 silly placeDep node_modules/vsce inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+245 silly fetch manifest wrappy@1
+246 silly placeDep node_modules/vsce inherits@2.0.4 OK for: glob@7.2.3 want: 2
+247 silly placeDep node_modules/vsce once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+248 silly placeDep node_modules/vsce path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+249 http fetch GET 200 https://registry.npmjs.org/wrappy 63ms (cache miss)
+250 timing idealTree:node_modules/vsce/node_modules/glob Completed in 70ms
+251 timing idealTree:node_modules/vsce/node_modules/fs.realpath Completed in 1ms
+252 silly placeDep node_modules/vsce lru-cache@6.0.0 OK for: hosted-git-info@4.1.0 want: ^6.0.0
+253 silly fetch manifest yallist@^4.0.0
+254 http fetch GET 200 https://registry.npmjs.org/yallist 56ms (cache miss)
+255 timing idealTree:node_modules/vsce/node_modules/hosted-git-info Completed in 59ms
+256 timing idealTree:node_modules/vsce/node_modules/htmlparser2 Completed in 0ms
+257 silly placeDep node_modules/vsce safer-buffer@2.1.2 OK for: iconv-lite@0.6.3 want: >= 2.1.2 < 3.0.0
+258 timing idealTree:node_modules/vsce/node_modules/iconv-lite Completed in 2ms
+259 silly placeDep node_modules/vsce wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+260 timing idealTree:node_modules/vsce/node_modules/inflight Completed in 2ms
+261 timing idealTree:node_modules/vsce/node_modules/inherits Completed in 0ms
+262 silly placeDep node_modules/vsce node-addon-api@4.3.0 OK for: keytar@7.9.0 want: ^4.3.0
+263 silly placeDep node_modules/vsce prebuild-install@7.1.2 OK for: keytar@7.9.0 want: ^7.0.1
+264 silly fetch manifest detect-libc@^2.0.0
+265 silly fetch manifest expand-template@^2.0.3
+266 silly fetch manifest github-from-package@0.0.0
+267 silly fetch manifest minimist@^1.2.3
+268 silly fetch manifest mkdirp-classic@^0.5.3
+269 silly fetch manifest napi-build-utils@^1.0.1
+270 silly fetch manifest node-abi@^3.3.0
+271 silly fetch manifest pump@^3.0.0
+272 silly fetch manifest rc@^1.2.7
+273 silly fetch manifest simple-get@^4.0.0
+274 silly fetch manifest tar-fs@^2.0.0
+275 silly fetch manifest tunnel-agent@^0.6.0
+276 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic 92ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/minimist 98ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/expand-template 102ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/github-from-package 104ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/detect-libc 109ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/pump 108ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/napi-build-utils 115ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/rc 115ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 115ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/simple-get 115ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/tar-fs 119ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/node-abi 122ms (cache miss)
+288 timing idealTree:node_modules/vsce/node_modules/keytar Completed in 131ms
+289 timing idealTree:node_modules/vsce/node_modules/leven Completed in 0ms
+290 silly placeDep node_modules/vsce yallist@4.0.0 OK for: lru-cache@6.0.0 want: ^4.0.0
+291 timing idealTree:node_modules/vsce/node_modules/lru-cache Completed in 2ms
+292 silly placeDep node_modules/vsce argparse@2.0.1 OK for: markdown-it@12.3.2 want: ^2.0.1
+293 silly placeDep node_modules/vsce/node_modules/markdown-it entities@2.1.0 OK for: markdown-it@12.3.2 want: ~2.1.0
+294 silly placeDep node_modules/vsce linkify-it@3.0.3 OK for: markdown-it@12.3.2 want: ^3.0.1
+295 silly fetch manifest uc.micro@^1.0.1
+296 silly placeDep node_modules/vsce mdurl@1.0.1 OK for: markdown-it@12.3.2 want: ^1.0.1
+297 silly placeDep node_modules/vsce uc.micro@1.0.6 OK for: markdown-it@12.3.2 want: ^1.0.5
+298 timing idealTree:node_modules/vsce/node_modules/markdown-it Completed in 11ms
+299 timing idealTree:node_modules/vsce/node_modules/argparse Completed in 0ms
+300 timing idealTree:node_modules/vsce/node_modules/linkify-it Completed in 0ms
+301 timing idealTree:node_modules/vsce/node_modules/mdurl Completed in 0ms
+302 timing idealTree:node_modules/vsce/node_modules/mime Completed in 0ms
+303 silly placeDep node_modules/vsce brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+304 silly fetch manifest balanced-match@^1.0.0
+305 silly fetch manifest concat-map@0.0.1
+306 http fetch GET 200 https://registry.npmjs.org/balanced-match 59ms (cache miss)
+307 http fetch GET 200 https://registry.npmjs.org/concat-map 60ms (cache miss)
+308 timing idealTree:node_modules/vsce/node_modules/minimatch Completed in 63ms
+309 silly placeDep node_modules/vsce balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+310 silly placeDep node_modules/vsce concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+311 timing idealTree:node_modules/vsce/node_modules/brace-expansion Completed in 5ms
+312 timing idealTree:node_modules/vsce/node_modules/balanced-match Completed in 0ms
+313 timing idealTree:node_modules/vsce/node_modules/concat-map Completed in 0ms
+314 timing idealTree:node_modules/vsce/node_modules/node-addon-api Completed in 0ms
+315 timing idealTree:node_modules/vsce/node_modules/nth-check Completed in 0ms
+316 timing idealTree:node_modules/vsce/node_modules/once Completed in 0ms
+317 timing idealTree:node_modules/vsce/node_modules/parse-semver Completed in 0ms
+318 timing idealTree:node_modules/vsce/node_modules/parse5 Completed in 0ms
+319 timing idealTree:node_modules/vsce/node_modules/parse5-htmlparser2-tree-adapter Completed in 0ms
+320 timing idealTree:node_modules/vsce/node_modules/parse5-parser-stream Completed in 0ms
+321 timing idealTree:node_modules/vsce/node_modules/path-is-absolute Completed in 0ms
+322 silly placeDep node_modules/vsce detect-libc@2.0.3 OK for: prebuild-install@7.1.2 want: ^2.0.0
+323 silly placeDep node_modules/vsce expand-template@2.0.3 OK for: prebuild-install@7.1.2 want: ^2.0.3
+324 silly placeDep node_modules/vsce github-from-package@0.0.0 OK for: prebuild-install@7.1.2 want: 0.0.0
+325 silly placeDep node_modules/vsce minimist@1.2.8 OK for: prebuild-install@7.1.2 want: ^1.2.3
+326 silly placeDep node_modules/vsce mkdirp-classic@0.5.3 OK for: prebuild-install@7.1.2 want: ^0.5.3
+327 silly placeDep node_modules/vsce napi-build-utils@1.0.2 OK for: prebuild-install@7.1.2 want: ^1.0.1
+328 silly placeDep node_modules/vsce node-abi@3.71.0 OK for: prebuild-install@7.1.2 want: ^3.3.0
+329 silly fetch manifest semver@^7.3.5
+330 silly placeDep node_modules/vsce pump@3.0.2 OK for: prebuild-install@7.1.2 want: ^3.0.0
+331 silly fetch manifest end-of-stream@^1.1.0
+332 silly placeDep node_modules/vsce rc@1.2.8 OK for: prebuild-install@7.1.2 want: ^1.2.7
+333 silly fetch manifest deep-extend@^0.6.0
+334 silly fetch manifest ini@~1.3.0
+335 silly fetch manifest strip-json-comments@~2.0.1
+336 silly placeDep node_modules/vsce simple-get@4.0.1 OK for: prebuild-install@7.1.2 want: ^4.0.0
+337 silly fetch manifest decompress-response@^6.0.0
+338 silly fetch manifest simple-concat@^1.0.0
+339 silly placeDep node_modules/vsce tar-fs@2.1.1 OK for: prebuild-install@7.1.2 want: ^2.0.0
+340 silly fetch manifest chownr@^1.1.1
+341 silly fetch manifest tar-stream@^2.1.4
+342 silly placeDep node_modules/vsce tunnel-agent@0.6.0 OK for: prebuild-install@7.1.2 want: ^0.6.0
+343 silly fetch manifest safe-buffer@^5.0.1
+344 http fetch GET 200 https://registry.npmjs.org/end-of-stream 72ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/deep-extend 71ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/ini 83ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 84ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/chownr 94ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/tar-stream 99ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/safe-buffer 101ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/simple-concat 105ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/decompress-response 106ms (cache miss)
+353 timing idealTree:node_modules/vsce/node_modules/prebuild-install Completed in 135ms
+354 timing idealTree:node_modules/vsce/node_modules/detect-libc Completed in 1ms
+355 timing idealTree:node_modules/vsce/node_modules/expand-template Completed in 0ms
+356 timing idealTree:node_modules/vsce/node_modules/github-from-package Completed in 0ms
+357 timing idealTree:node_modules/vsce/node_modules/minimist Completed in 0ms
+358 timing idealTree:node_modules/vsce/node_modules/mkdirp-classic Completed in 0ms
+359 timing idealTree:node_modules/vsce/node_modules/napi-build-utils Completed in 0ms
+360 silly placeDep node_modules/vsce/node_modules/node-abi semver@7.6.3 OK for: node-abi@3.71.0 want: ^7.3.5
+361 timing idealTree:node_modules/vsce/node_modules/node-abi Completed in 3ms
+362 silly placeDep node_modules/vsce end-of-stream@1.4.4 OK for: pump@3.0.2 want: ^1.1.0
+363 timing idealTree:node_modules/vsce/node_modules/pump Completed in 3ms
+364 timing idealTree:node_modules/vsce/node_modules/end-of-stream Completed in 0ms
+365 silly placeDep node_modules/vsce deep-extend@0.6.0 OK for: rc@1.2.8 want: ^0.6.0
+366 silly placeDep node_modules/vsce ini@1.3.8 OK for: rc@1.2.8 want: ~1.3.0
+367 silly placeDep node_modules/vsce strip-json-comments@2.0.1 OK for: rc@1.2.8 want: ~2.0.1
+368 timing idealTree:node_modules/vsce/node_modules/rc Completed in 6ms
+369 timing idealTree:node_modules/vsce/node_modules/deep-extend Completed in 0ms
+370 timing idealTree:node_modules/vsce/node_modules/ini Completed in 0ms
+371 silly placeDep node_modules/vsce mute-stream@0.0.8 OK for: read@1.0.7 want: ~0.0.4
+372 timing idealTree:node_modules/vsce/node_modules/read Completed in 2ms
+373 timing idealTree:node_modules/vsce/node_modules/mute-stream Completed in 0ms
+374 timing idealTree:node_modules/vsce/node_modules/safer-buffer Completed in 0ms
+375 timing idealTree:node_modules/vsce/node_modules/semver Completed in 0ms
+376 silly placeDep node_modules/vsce decompress-response@6.0.0 OK for: simple-get@4.0.1 want: ^6.0.0
+377 silly fetch manifest mimic-response@^3.1.0
+378 silly placeDep node_modules/vsce simple-concat@1.0.1 OK for: simple-get@4.0.1 want: ^1.0.0
+379 http fetch GET 200 https://registry.npmjs.org/mimic-response 67ms (cache miss)
+380 timing idealTree:node_modules/vsce/node_modules/simple-get Completed in 71ms
+381 silly placeDep node_modules/vsce mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+382 timing idealTree:node_modules/vsce/node_modules/decompress-response Completed in 3ms
+383 timing idealTree:node_modules/vsce/node_modules/mimic-response Completed in 0ms
+384 timing idealTree:node_modules/vsce/node_modules/simple-concat Completed in 0ms
+385 timing idealTree:node_modules/vsce/node_modules/strip-json-comments Completed in 0ms
+386 silly placeDep node_modules/vsce has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+387 timing idealTree:node_modules/vsce/node_modules/supports-color Completed in 2ms
+388 timing idealTree:node_modules/vsce/node_modules/has-flag Completed in 0ms
+389 silly placeDep node_modules/vsce chownr@1.1.4 OK for: tar-fs@2.1.1 want: ^1.1.1
+390 silly placeDep node_modules/vsce tar-stream@2.2.0 OK for: tar-fs@2.1.1 want: ^2.1.4
+391 silly fetch manifest bl@^4.0.3
+392 silly fetch manifest fs-constants@^1.0.0
+393 silly fetch manifest readable-stream@^3.1.1
+394 http fetch GET 200 https://registry.npmjs.org/fs-constants 62ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/bl 68ms (cache miss)
+396 http fetch GET 200 https://registry.npmjs.org/readable-stream 72ms (cache miss)
+397 timing idealTree:node_modules/vsce/node_modules/tar-fs Completed in 85ms
+398 timing idealTree:node_modules/vsce/node_modules/chownr Completed in 0ms
+399 silly placeDep node_modules/vsce bl@4.1.0 OK for: tar-stream@2.2.0 want: ^4.0.3
+400 silly fetch manifest buffer@^5.5.0
+401 silly fetch manifest readable-stream@^3.4.0
+402 silly placeDep node_modules/vsce fs-constants@1.0.0 OK for: tar-stream@2.2.0 want: ^1.0.0
+403 silly placeDep node_modules/vsce readable-stream@3.6.2 OK for: tar-stream@2.2.0 want: ^3.1.1
+404 silly fetch manifest string_decoder@^1.1.1
+405 silly fetch manifest util-deprecate@^1.0.1
+406 http fetch GET 200 https://registry.npmjs.org/string_decoder 65ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/buffer 71ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/util-deprecate 70ms (cache miss)
+409 timing idealTree:node_modules/vsce/node_modules/tar-stream Completed in 78ms
+410 silly placeDep node_modules/vsce buffer@5.7.1 OK for: bl@4.1.0 want: ^5.5.0
+411 silly fetch manifest base64-js@^1.3.1
+412 silly fetch manifest ieee754@^1.1.13
+413 http fetch GET 200 https://registry.npmjs.org/ieee754 72ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/base64-js 78ms (cache miss)
+415 timing idealTree:node_modules/vsce/node_modules/bl Completed in 81ms
+416 silly placeDep node_modules/vsce base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+417 silly placeDep node_modules/vsce ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+418 timing idealTree:node_modules/vsce/node_modules/buffer Completed in 5ms
+419 timing idealTree:node_modules/vsce/node_modules/base64-js Completed in 0ms
+420 timing idealTree:node_modules/vsce/node_modules/fs-constants Completed in 0ms
+421 timing idealTree:node_modules/vsce/node_modules/ieee754 Completed in 0ms
+422 silly placeDep node_modules/vsce string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+423 silly fetch manifest safe-buffer@~5.2.0
+424 silly placeDep node_modules/vsce util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+425 timing idealTree:node_modules/vsce/node_modules/readable-stream Completed in 4ms
+426 silly placeDep node_modules/vsce safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+427 timing idealTree:node_modules/vsce/node_modules/string_decoder Completed in 2ms
+428 timing idealTree:node_modules/vsce/node_modules/safe-buffer Completed in 0ms
+429 timing idealTree:node_modules/vsce/node_modules/tmp Completed in 0ms
+430 timing idealTree:node_modules/vsce/node_modules/tunnel Completed in 0ms
+431 timing idealTree:node_modules/vsce/node_modules/tunnel-agent Completed in 0ms
+432 silly placeDep node_modules/vsce qs@6.13.1 OK for: typed-rest-client@1.8.11 want: ^6.9.1
+433 silly fetch manifest side-channel@^1.0.6
+434 silly placeDep node_modules/vsce underscore@1.13.7 OK for: typed-rest-client@1.8.11 want: ^1.12.1
+435 http fetch GET 200 https://registry.npmjs.org/side-channel 55ms (cache miss)
+436 timing idealTree:node_modules/vsce/node_modules/typed-rest-client Completed in 58ms
+437 silly placeDep node_modules/vsce side-channel@1.1.0 OK for: qs@6.13.1 want: ^1.0.6
+438 silly fetch manifest es-errors@^1.3.0
+439 silly fetch manifest object-inspect@^1.13.3
+440 silly fetch manifest side-channel-list@^1.0.0
+441 silly fetch manifest side-channel-map@^1.0.1
+442 silly fetch manifest side-channel-weakmap@^1.0.2
+443 http fetch GET 200 https://registry.npmjs.org/side-channel-list 71ms (cache miss)
+444 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap 77ms (cache miss)
+445 http fetch GET 200 https://registry.npmjs.org/object-inspect 80ms (cache miss)
+446 http fetch GET 200 https://registry.npmjs.org/side-channel-map 87ms (cache miss)
+447 http fetch GET 200 https://registry.npmjs.org/es-errors 101ms (cache miss)
+448 timing idealTree:node_modules/vsce/node_modules/qs Completed in 104ms
+449 silly placeDep node_modules/vsce es-errors@1.3.0 OK for: side-channel@1.1.0 want: ^1.3.0
+450 silly placeDep node_modules/vsce object-inspect@1.13.3 OK for: side-channel@1.1.0 want: ^1.13.3
+451 silly placeDep node_modules/vsce side-channel-list@1.0.0 OK for: side-channel@1.1.0 want: ^1.0.0
+452 silly placeDep node_modules/vsce side-channel-map@1.0.1 OK for: side-channel@1.1.0 want: ^1.0.1
+453 silly fetch manifest call-bound@^1.0.2
+454 silly fetch manifest get-intrinsic@^1.2.5
+455 silly placeDep node_modules/vsce side-channel-weakmap@1.0.2 OK for: side-channel@1.1.0 want: ^1.0.2
+456 http fetch GET 200 https://registry.npmjs.org/call-bound 65ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 72ms (cache miss)
+458 timing idealTree:node_modules/vsce/node_modules/side-channel Completed in 81ms
+459 timing idealTree:node_modules/vsce/node_modules/es-errors Completed in 0ms
+460 timing idealTree:node_modules/vsce/node_modules/object-inspect Completed in 0ms
+461 timing idealTree:node_modules/vsce/node_modules/side-channel-list Completed in 0ms
+462 silly placeDep node_modules/vsce call-bound@1.0.3 OK for: side-channel-map@1.0.1 want: ^1.0.2
+463 silly fetch manifest call-bind-apply-helpers@^1.0.1
+464 silly fetch manifest get-intrinsic@^1.2.6
+465 silly placeDep node_modules/vsce get-intrinsic@1.2.6 OK for: side-channel-map@1.0.1 want: ^1.2.5
+466 silly fetch manifest dunder-proto@^1.0.0
+467 silly fetch manifest es-define-property@^1.0.1
+468 silly fetch manifest es-object-atoms@^1.0.0
+469 silly fetch manifest function-bind@^1.1.2
+470 silly fetch manifest gopd@^1.2.0
+471 silly fetch manifest has-symbols@^1.1.0
+472 silly fetch manifest hasown@^2.0.2
+473 silly fetch manifest math-intrinsics@^1.0.0
+474 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 62ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/es-define-property 74ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/function-bind 80ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/dunder-proto 82ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/hasown 83ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/has-symbols 84ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/gopd 86ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 86ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 90ms (cache miss)
+483 timing idealTree:node_modules/vsce/node_modules/side-channel-map Completed in 97ms
+484 silly placeDep node_modules/vsce call-bind-apply-helpers@1.0.1 OK for: call-bound@1.0.3 want: ^1.0.1
+485 timing idealTree:node_modules/vsce/node_modules/call-bound Completed in 2ms
+486 silly placeDep node_modules/vsce function-bind@1.1.2 OK for: call-bind-apply-helpers@1.0.1 want: ^1.1.2
+487 timing idealTree:node_modules/vsce/node_modules/call-bind-apply-helpers Completed in 2ms
+488 timing idealTree:node_modules/vsce/node_modules/function-bind Completed in 0ms
+489 silly placeDep node_modules/vsce dunder-proto@1.0.1 OK for: get-intrinsic@1.2.6 want: ^1.0.0
+490 silly placeDep node_modules/vsce es-define-property@1.0.1 OK for: get-intrinsic@1.2.6 want: ^1.0.1
+491 silly placeDep node_modules/vsce es-object-atoms@1.0.0 OK for: get-intrinsic@1.2.6 want: ^1.0.0
+492 silly placeDep node_modules/vsce gopd@1.2.0 OK for: get-intrinsic@1.2.6 want: ^1.2.0
+493 silly placeDep node_modules/vsce has-symbols@1.1.0 OK for: get-intrinsic@1.2.6 want: ^1.1.0
+494 silly placeDep node_modules/vsce hasown@2.0.2 OK for: get-intrinsic@1.2.6 want: ^2.0.2
+495 silly placeDep node_modules/vsce math-intrinsics@1.1.0 OK for: get-intrinsic@1.2.6 want: ^1.0.0
+496 timing idealTree:node_modules/vsce/node_modules/get-intrinsic Completed in 11ms
+497 timing idealTree:node_modules/vsce/node_modules/dunder-proto Completed in 1ms
+498 timing idealTree:node_modules/vsce/node_modules/es-define-property Completed in 0ms
+499 timing idealTree:node_modules/vsce/node_modules/es-object-atoms Completed in 0ms
+500 timing idealTree:node_modules/vsce/node_modules/gopd Completed in 0ms
+501 timing idealTree:node_modules/vsce/node_modules/has-symbols Completed in 0ms
+502 timing idealTree:node_modules/vsce/node_modules/hasown Completed in 0ms
+503 timing idealTree:node_modules/vsce/node_modules/math-intrinsics Completed in 0ms
+504 timing idealTree:node_modules/vsce/node_modules/side-channel-weakmap Completed in 0ms
+505 timing idealTree:node_modules/vsce/node_modules/uc.micro Completed in 0ms
+506 timing idealTree:node_modules/vsce/node_modules/underscore Completed in 0ms
+507 timing idealTree:node_modules/vsce/node_modules/undici Completed in 0ms
+508 timing idealTree:node_modules/vsce/node_modules/url-join Completed in 0ms
+509 timing idealTree:node_modules/vsce/node_modules/util-deprecate Completed in 0ms
+510 timing idealTree:node_modules/vsce/node_modules/whatwg-encoding Completed in 0ms
+511 timing idealTree:node_modules/vsce/node_modules/whatwg-mimetype Completed in 0ms
+512 timing idealTree:node_modules/vsce/node_modules/wrappy Completed in 0ms
+513 silly placeDep node_modules/vsce sax@1.4.1 OK for: xml2js@0.4.23 want: >=0.6.0
+514 silly placeDep node_modules/vsce xmlbuilder@11.0.1 OK for: xml2js@0.4.23 want: ~11.0.0
+515 timing idealTree:node_modules/vsce/node_modules/xml2js Completed in 3ms
+516 timing idealTree:node_modules/vsce/node_modules/sax Completed in 0ms
+517 timing idealTree:node_modules/vsce/node_modules/xmlbuilder Completed in 0ms
+518 timing idealTree:node_modules/vsce/node_modules/yallist Completed in 0ms
+519 silly placeDep node_modules/vsce buffer-crc32@0.2.13 OK for: yauzl@2.10.0 want: ~0.2.3
+520 silly placeDep node_modules/vsce fd-slicer@1.1.0 OK for: yauzl@2.10.0 want: ~1.1.0
+521 silly fetch manifest pend@~1.2.0
+522 http fetch GET 200 https://registry.npmjs.org/pend 56ms (cache miss)
+523 timing idealTree:node_modules/vsce/node_modules/yauzl Completed in 61ms
+524 timing idealTree:node_modules/vsce/node_modules/buffer-crc32 Completed in 0ms
+525 silly placeDep node_modules/vsce pend@1.2.0 OK for: fd-slicer@1.1.0 want: ~1.2.0
+526 timing idealTree:node_modules/vsce/node_modules/fd-slicer Completed in 2ms
+527 timing idealTree:node_modules/vsce/node_modules/pend Completed in 0ms
+528 timing idealTree:node_modules/vsce/node_modules/yazl Completed in 0ms
+529 timing idealTree:node_modules/vsce/node_modules/markdown-it/node_modules/entities Completed in 0ms
+530 timing idealTree:node_modules/vsce/node_modules/node-abi/node_modules/semver Completed in 0ms
+531 timing idealTree:buildDeps Completed in 3302ms
+532 timing idealTree:fixDepFlags Completed in 3ms
+533 timing idealTree Completed in 3318ms
+534 timing reify:loadTrees Completed in 3323ms
+535 timing reify:diffTrees Completed in 5ms
+536 silly reify moves {}
+537 timing reify:retireShallow Completed in 2ms
+538 timing reify:createSparse Completed in 60ms
+539 timing reify:loadBundles Completed in 0ms
+540 silly tarball no local data for vsce@https://registry.npmjs.org/vsce/-/vsce-2.15.0.tgz. Extracting by manifest.
+541 silly tarball no local data for pend@https://registry.npmjs.org/pend/-/pend-1.2.0.tgz. Extracting by manifest.
+542 silly tarball no local data for buffer-crc32@https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz. Extracting by manifest.
+543 silly tarball no local data for fd-slicer@https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz. Extracting by manifest.
+544 silly tarball no local data for sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz. Extracting by manifest.
+545 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+546 silly tarball no local data for xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz. Extracting by manifest.
+547 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+548 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+549 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz. Extracting by manifest.
+550 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+551 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+552 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+553 silly tarball no local data for call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.3.tgz. Extracting by manifest.
+554 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+555 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.6.tgz. Extracting by manifest.
+556 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz. Extracting by manifest.
+557 silly tarball no local data for side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz. Extracting by manifest.
+558 silly tarball no local data for side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz. Extracting by manifest.
+559 silly tarball no local data for side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz. Extracting by manifest.
+560 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+561 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz. Extracting by manifest.
+562 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.3.tgz. Extracting by manifest.
+563 silly tarball no local data for underscore@https://registry.npmjs.org/underscore/-/underscore-1.13.7.tgz. Extracting by manifest.
+564 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.13.1.tgz. Extracting by manifest.
+565 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+566 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+567 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz. Extracting by manifest.
+568 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz. Extracting by manifest.
+569 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+570 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz. Extracting by manifest.
+571 silly tarball no local data for fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz. Extracting by manifest.
+572 silly tarball no local data for tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz. Extracting by manifest.
+573 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz. Extracting by manifest.
+574 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz. Extracting by manifest.
+575 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz. Extracting by manifest.
+576 silly tarball no local data for simple-concat@https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz. Extracting by manifest.
+577 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+578 silly tarball no local data for mimic-response@https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz. Extracting by manifest.
+579 silly tarball no local data for strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz. Extracting by manifest.
+580 silly tarball no local data for decompress-response@https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz. Extracting by manifest.
+581 silly tarball no local data for ini@https://registry.npmjs.org/ini/-/ini-1.3.8.tgz. Extracting by manifest.
+582 silly tarball no local data for deep-extend@https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz. Extracting by manifest.
+583 silly tarball no local data for mute-stream@https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz. Extracting by manifest.
+584 silly tarball no local data for end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz. Extracting by manifest.
+585 silly tarball no local data for tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.1.tgz. Extracting by manifest.
+586 silly tarball no local data for pump@https://registry.npmjs.org/pump/-/pump-3.0.2.tgz. Extracting by manifest.
+587 silly tarball no local data for rc@https://registry.npmjs.org/rc/-/rc-1.2.8.tgz. Extracting by manifest.
+588 silly tarball no local data for simple-get@https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz. Extracting by manifest.
+589 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.6.3.tgz. Extracting by manifest.
+590 silly tarball no local data for node-abi@https://registry.npmjs.org/node-abi/-/node-abi-3.71.0.tgz. Extracting by manifest.
+591 silly tarball no local data for tunnel-agent@https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz. Extracting by manifest.
+592 silly tarball no local data for mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz. Extracting by manifest.
+593 silly tarball no local data for napi-build-utils@https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz. Extracting by manifest.
+594 silly tarball no local data for expand-template@https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz. Extracting by manifest.
+595 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz. Extracting by manifest.
+596 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+597 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz. Extracting by manifest.
+598 silly tarball no local data for github-from-package@https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz. Extracting by manifest.
+599 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz. Extracting by manifest.
+600 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+601 silly tarball no local data for mdurl@https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz. Extracting by manifest.
+602 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz. Extracting by manifest.
+603 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz. Extracting by manifest.
+604 silly tarball no local data for uc.micro@https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz. Extracting by manifest.
+605 silly tarball no local data for linkify-it@https://registry.npmjs.org/linkify-it/-/linkify-it-3.0.3.tgz. Extracting by manifest.
+606 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.3.0.tgz. Extracting by manifest.
+607 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+608 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+609 silly tarball no local data for prebuild-install@https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.2.tgz. Extracting by manifest.
+610 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+611 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz. Extracting by manifest.
+612 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+613 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+614 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+615 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+616 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+617 silly tarball no local data for whatwg-encoding@https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz. Extracting by manifest.
+618 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+619 silly tarball no local data for css-select@https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz. Extracting by manifest.
+620 silly tarball no local data for nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz. Extracting by manifest.
+621 silly tarball no local data for whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz. Extracting by manifest.
+622 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+623 silly tarball no local data for boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz. Extracting by manifest.
+624 silly tarball no local data for domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz. Extracting by manifest.
+625 silly tarball no local data for css-what@https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz. Extracting by manifest.
+626 silly tarball no local data for parse5-parser-stream@https://registry.npmjs.org/parse5-parser-stream/-/parse5-parser-stream-7.1.2.tgz. Extracting by manifest.
+627 silly tarball no local data for undici@https://registry.npmjs.org/undici/-/undici-6.21.0.tgz. Extracting by manifest.
+628 silly tarball no local data for parse5@https://registry.npmjs.org/parse5/-/parse5-7.2.1.tgz. Extracting by manifest.
+629 silly tarball no local data for parse5-htmlparser2-tree-adapter@https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz. Extracting by manifest.
+630 silly tarball no local data for encoding-sniffer@https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.0.tgz. Extracting by manifest.
+631 silly tarball no local data for htmlparser2@https://registry.npmjs.org/htmlparser2/-/htmlparser2-9.1.0.tgz. Extracting by manifest.
+632 silly tarball no local data for domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz. Extracting by manifest.
+633 silly tarball no local data for dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz. Extracting by manifest.
+634 silly tarball no local data for domutils@https://registry.npmjs.org/domutils/-/domutils-3.1.0.tgz. Extracting by manifest.
+635 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+636 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+637 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+638 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+639 silly tarball no local data for cheerio-select@https://registry.npmjs.org/cheerio-select/-/cheerio-select-2.1.0.tgz. Extracting by manifest.
+640 silly tarball no local data for yauzl@https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz. Extracting by manifest.
+641 silly tarball no local data for tunnel@https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz. Extracting by manifest.
+642 silly tarball no local data for xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz. Extracting by manifest.
+643 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.2.3.tgz. Extracting by manifest.
+644 silly tarball no local data for yazl@https://registry.npmjs.org/yazl/-/yazl-2.5.1.tgz. Extracting by manifest.
+645 silly tarball no local data for parse-semver@https://registry.npmjs.org/parse-semver/-/parse-semver-1.1.1.tgz. Extracting by manifest.
+646 silly tarball no local data for typed-rest-client@https://registry.npmjs.org/typed-rest-client/-/typed-rest-client-1.8.11.tgz. Extracting by manifest.
+647 silly tarball no local data for url-join@https://registry.npmjs.org/url-join/-/url-join-4.0.1.tgz. Extracting by manifest.
+648 silly tarball no local data for read@https://registry.npmjs.org/read/-/read-1.0.7.tgz. Extracting by manifest.
+649 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz. Extracting by manifest.
+650 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz. Extracting by manifest.
+651 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-2.1.0.tgz. Extracting by manifest.
+652 silly tarball no local data for markdown-it@https://registry.npmjs.org/markdown-it/-/markdown-it-12.3.2.tgz. Extracting by manifest.
+653 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+654 silly tarball no local data for hosted-git-info@https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-4.1.0.tgz. Extracting by manifest.
+655 silly tarball no local data for keytar@https://registry.npmjs.org/keytar/-/keytar-7.9.0.tgz. Extracting by manifest.
+656 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-6.2.1.tgz. Extracting by manifest.
+657 silly tarball no local data for leven@https://registry.npmjs.org/leven/-/leven-3.1.0.tgz. Extracting by manifest.
+658 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+659 silly tarball no local data for cheerio@https://registry.npmjs.org/cheerio/-/cheerio-1.0.0.tgz. Extracting by manifest.
+660 silly tarball no local data for azure-devops-node-api@https://registry.npmjs.org/azure-devops-node-api/-/azure-devops-node-api-11.2.0.tgz. Extracting by manifest.
+661 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+662 http fetch GET 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 791ms (cache miss)
+663 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 787ms (cache miss)
+664 timing reifyNode:node_modules/vsce/node_modules/buffer-crc32 Completed in 864ms
+665 http fetch GET 200 https://registry.npmjs.org/pend/-/pend-1.2.0.tgz 833ms (cache miss)
+666 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 852ms (cache miss)
+667 timing reifyNode:node_modules/vsce/node_modules/pend Completed in 921ms
+668 timing reifyNode:node_modules/vsce/node_modules/sax Completed in 932ms
+669 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 925ms (cache miss)
+670 timing reifyNode:node_modules/vsce/node_modules/mkdirp-classic Completed in 991ms
+671 http fetch GET 200 https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 973ms (cache miss)
+672 http fetch GET 200 https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz 969ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz 972ms (cache miss)
+674 timing reifyNode:node_modules/vsce/node_modules/end-of-stream Completed in 1023ms
+675 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 974ms (cache miss)
+676 timing reifyNode:node_modules/vsce/node_modules/strip-json-comments Completed in 1027ms
+677 http fetch GET 200 https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz 977ms (cache miss)
+678 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.8.tgz 982ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz 984ms (cache miss)
+680 timing reifyNode:node_modules/vsce/node_modules/chownr Completed in 1035ms
+681 timing reifyNode:node_modules/vsce/node_modules/ini Completed in 1034ms
+682 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 982ms (cache miss)
+683 timing reifyNode:node_modules/vsce/node_modules/once Completed in 1047ms
+684 http fetch GET 200 https://registry.npmjs.org/read/-/read-1.0.7.tgz 962ms (cache miss)
+685 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 1003ms (cache miss)
+686 http fetch GET 200 https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz 1000ms (cache miss)
+687 timing reifyNode:node_modules/vsce/node_modules/ieee754 Completed in 1052ms
+688 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 995ms (cache miss)
+689 http fetch GET 200 https://registry.npmjs.org/node-abi/-/node-abi-3.71.0.tgz 998ms (cache miss)
+690 timing reifyNode:node_modules/vsce/node_modules/fs-constants Completed in 1061ms
+691 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 1015ms (cache miss)
+692 timing reifyNode:node_modules/vsce/node_modules/string_decoder Completed in 1062ms
+693 timing reifyNode:node_modules/vsce/node_modules/mimic-response Completed in 1063ms
+694 timing reifyNode:node_modules/vsce/node_modules/decompress-response Completed in 1064ms
+695 timing reifyNode:node_modules/vsce/node_modules/read Completed in 1077ms
+696 http fetch GET 200 https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz 1049ms (cache miss)
+697 timing reifyNode:node_modules/vsce/node_modules/napi-build-utils Completed in 1081ms
+698 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 1039ms (cache miss)
+699 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 1036ms (cache miss)
+700 http fetch GET 200 https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz 1026ms (cache miss)
+701 timing reifyNode:node_modules/vsce/node_modules/node-abi Completed in 1082ms
+702 http fetch GET 200 https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz 1034ms (cache miss)
+703 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 1031ms (cache miss)
+704 http fetch GET 200 https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 1022ms (cache miss)
+705 timing reifyNode:node_modules/vsce/node_modules/boolbase Completed in 1091ms
+706 timing reifyNode:node_modules/vsce/node_modules/balanced-match Completed in 1096ms
+707 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 1034ms (cache miss)
+708 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 1039ms (cache miss)
+709 timing reifyNode:node_modules/vsce/node_modules/path-is-absolute Completed in 1104ms
+710 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz 1041ms (cache miss)
+711 timing reifyNode:node_modules/vsce/node_modules/lru-cache Completed in 1105ms
+712 timing reifyNode:node_modules/vsce/node_modules/yallist Completed in 1105ms
+713 timing reifyNode:node_modules/vsce/node_modules/fd-slicer Completed in 1107ms
+714 http fetch GET 200 https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz 1055ms (cache miss)
+715 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 1044ms (cache miss)
+716 timing reifyNode:node_modules/vsce/node_modules/inherits Completed in 1111ms
+717 timing reifyNode:node_modules/vsce/node_modules/util-deprecate Completed in 1119ms
+718 timing reifyNode:node_modules/vsce/node_modules/base64-js Completed in 1119ms
+719 timing reifyNode:node_modules/vsce/node_modules/expand-template Completed in 1118ms
+720 timing reifyNode:node_modules/vsce/node_modules/simple-concat Completed in 1120ms
+721 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz 1058ms (cache miss)
+722 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+723 timing reifyNode:node_modules/vsce/node_modules/inflight Completed in 1131ms
+724 timing reifyNode:node_modules/vsce/node_modules/deep-extend Completed in 1137ms
+725 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 1060ms (cache miss)
+726 timing reifyNode:node_modules/vsce/node_modules/escape-string-regexp Completed in 1137ms
+727 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 1113ms (cache miss)
+728 timing reifyNode:node_modules/vsce/node_modules/whatwg-encoding Completed in 1155ms
+729 http fetch GET 200 https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz 1118ms (cache miss)
+730 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.3.tgz 1115ms (cache miss)
+731 timing reifyNode:node_modules/vsce/node_modules/hasown Completed in 1185ms
+732 http fetch GET 200 https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-4.1.0.tgz 1097ms (cache miss)
+733 timing reifyNode:node_modules/vsce/node_modules/hosted-git-info Completed in 1187ms
+734 timing reifyNode:node_modules/vsce/node_modules/simple-get Completed in 1192ms
+735 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 1128ms (cache miss)
+736 timing reifyNode:node_modules/vsce/node_modules/detect-libc Completed in 1205ms
+737 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 1157ms (cache miss)
+738 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 1177ms (cache miss)
+739 http fetch GET 200 https://registry.npmjs.org/call-bound/-/call-bound-1.0.3.tgz 1177ms (cache miss)
+740 http fetch GET 200 https://registry.npmjs.org/pump/-/pump-3.0.2.tgz 1162ms (cache miss)
+741 timing reifyNode:node_modules/vsce/node_modules/fs.realpath Completed in 1220ms
+742 timing reifyNode:node_modules/vsce/node_modules/has-flag Completed in 1222ms
+743 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 1144ms (cache miss)
+744 timing reifyNode:node_modules/vsce/node_modules/minimatch Completed in 1231ms
+745 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 1192ms (cache miss)
+746 timing reifyNode:node_modules/vsce/node_modules/safe-buffer Completed in 1235ms
+747 timing reifyNode:node_modules/vsce/node_modules/es-define-property Completed in 1241ms
+748 timing reifyNode:node_modules/vsce/node_modules/call-bound Completed in 1241ms
+749 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 1207ms (cache miss)
+750 timing reifyNode:node_modules/vsce/node_modules/pump Completed in 1242ms
+751 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 1186ms (cache miss)
+752 timing reifyNode:node_modules/vsce/node_modules/brace-expansion Completed in 1245ms
+753 http fetch GET 200 https://registry.npmjs.org/parse5-parser-stream/-/parse5-parser-stream-7.1.2.tgz 1173ms (cache miss)
+754 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 1168ms (cache miss)
+755 http fetch GET 200 https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz 1197ms (cache miss)
+756 timing reifyNode:node_modules/vsce/node_modules/mute-stream Completed in 1249ms
+757 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 1204ms (cache miss)
+758 timing reifyNode:node_modules/vsce/node_modules/tar-stream Completed in 1253ms
+759 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 1194ms (cache miss)
+760 timing reifyNode:node_modules/vsce/node_modules/safer-buffer Completed in 1256ms
+761 timing reifyNode:node_modules/vsce/node_modules/parse5-parser-stream Completed in 1262ms
+762 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 1201ms (cache miss)
+763 timing reifyNode:node_modules/vsce/node_modules/wrappy Completed in 1264ms
+764 http fetch GET 200 https://registry.npmjs.org/url-join/-/url-join-4.0.1.tgz 1181ms (cache miss)
+765 timing reifyNode:node_modules/vsce/node_modules/url-join Completed in 1267ms
+766 timing reifyNode:node_modules/vsce/node_modules/gopd Completed in 1270ms
+767 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 1217ms (cache miss)
+768 timing reifyNode:node_modules/vsce/node_modules/tunnel-agent Completed in 1271ms
+769 http fetch GET 200 https://registry.npmjs.org/leven/-/leven-3.1.0.tgz 1182ms (cache miss)
+770 timing reifyNode:node_modules/vsce/node_modules/supports-color Completed in 1276ms
+771 timing reifyNode:node_modules/vsce/node_modules/function-bind Completed in 1289ms
+772 timing reifyNode:node_modules/vsce/node_modules/leven Completed in 1291ms
+773 http fetch GET 200 https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz 1225ms (cache miss)
+774 timing reifyNode:node_modules/vsce/node_modules/yauzl Completed in 1304ms
+775 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 1228ms (cache miss)
+776 timing reifyNode:node_modules/vsce/node_modules/ansi-styles Completed in 1306ms
+777 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz 1276ms (cache miss)
+778 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz 1243ms (cache miss)
+779 timing reifyNode:node_modules/vsce/node_modules/whatwg-mimetype Completed in 1311ms
+780 timing reifyNode:node_modules/vsce/node_modules/es-object-atoms Completed in 1330ms
+781 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.6.tgz 1293ms (cache miss)
+782 timing reifyNode:node_modules/vsce/node_modules/get-intrinsic Completed in 1331ms
+783 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 1285ms (cache miss)
+784 timing reifyNode:node_modules/vsce/node_modules/buffer Completed in 1333ms
+785 http fetch GET 200 https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 1297ms (cache miss)
+786 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 1270ms (cache miss)
+787 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 1302ms (cache miss)
+788 http fetch GET 200 https://registry.npmjs.org/rc/-/rc-1.2.8.tgz 1288ms (cache miss)
+789 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 1301ms (cache miss)
+790 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1285ms (cache miss)
+791 timing reifyNode:node_modules/vsce/node_modules/side-channel-map Completed in 1354ms
+792 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 1266ms (cache miss)
+793 timing reifyNode:node_modules/vsce/node_modules/semver Completed in 1352ms
+794 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 1275ms (cache miss)
+795 http fetch GET 200 https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz 1297ms (cache miss)
+796 http fetch GET 200 https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz 1284ms (cache miss)
+797 timing reifyNode:node_modules/vsce/node_modules/color-name Completed in 1358ms
+798 timing reifyNode:node_modules/vsce/node_modules/side-channel-weakmap Completed in 1362ms
+799 timing reifyNode:node_modules/vsce/node_modules/side-channel Completed in 1362ms
+800 timing reifyNode:node_modules/vsce/node_modules/rc Completed in 1362ms
+801 timing reifyNode:node_modules/vsce/node_modules/concat-map Completed in 1363ms
+802 http fetch GET 200 https://registry.npmjs.org/linkify-it/-/linkify-it-3.0.3.tgz 1307ms (cache miss)
+803 timing reifyNode:node_modules/vsce/node_modules/linkify-it Completed in 1369ms
+804 timing reifyNode:node_modules/vsce/node_modules/color-convert Completed in 1369ms
+805 http fetch GET 200 https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 1332ms (cache miss)
+806 timing reifyNode:node_modules/vsce/node_modules/github-from-package Completed in 1372ms
+807 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.2.3.tgz 1291ms (cache miss)
+808 timing reifyNode:node_modules/vsce/node_modules/tmp Completed in 1373ms
+809 timing reifyNode:node_modules/vsce/node_modules/parse5-htmlparser2-tree-adapter Completed in 1373ms
+810 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 1337ms (cache miss)
+811 timing reifyNode:node_modules/vsce/node_modules/bl Completed in 1386ms
+812 timing reifyNode:node_modules/vsce/node_modules/side-channel-list Completed in 1388ms
+813 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 1297ms (cache miss)
+814 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+815 timing reifyNode:node_modules/vsce/node_modules/glob Completed in 1391ms
+816 http fetch GET 200 https://registry.npmjs.org/yazl/-/yazl-2.5.1.tgz 1310ms (cache miss)
+817 timing reifyNode:node_modules/vsce/node_modules/yazl Completed in 1392ms
+818 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 1368ms (cache miss)
+819 timing reifyNode:node_modules/vsce/node_modules/has-symbols Completed in 1408ms
+820 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 1373ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 1348ms (cache miss)
+822 timing reifyNode:node_modules/vsce/node_modules/dunder-proto Completed in 1423ms
+823 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 1366ms (cache miss)
+824 timing reifyNode:node_modules/vsce/node_modules/argparse Completed in 1425ms
+825 timing reifyNode:node_modules/vsce/node_modules/domelementtype Completed in 1436ms
+826 http fetch GET 200 https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz 1381ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz 1383ms (cache miss)
+828 timing reifyNode:node_modules/vsce/node_modules/mdurl Completed in 1442ms
+829 http fetch GET 200 https://registry.npmjs.org/parse-semver/-/parse-semver-1.1.1.tgz 1359ms (cache miss)
+830 timing reifyNode:node_modules/vsce/node_modules/parse-semver Completed in 1449ms
+831 timing reifyNode:node_modules/vsce/node_modules/uc.micro Completed in 1451ms
+832 http fetch GET 200 https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz 1371ms (cache miss)
+833 timing reifyNode:node_modules/vsce/node_modules/tunnel Completed in 1451ms
+834 http fetch GET 200 https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 1379ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-6.2.1.tgz 1369ms (cache miss)
+836 timing reifyNode:node_modules/vsce/node_modules/commander Completed in 1461ms
+837 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 1359ms (cache miss)
+838 timing reifyNode:node_modules/vsce/node_modules/chalk Completed in 1462ms
+839 timing reifyNode:node_modules/vsce/node_modules/domhandler Completed in 1464ms
+840 http fetch GET 200 https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz 1384ms (cache miss)
+841 timing reifyNode:node_modules/vsce/node_modules/xml2js Completed in 1466ms
+842 http fetch GET 200 https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.2.tgz 1404ms (cache miss)
+843 timing reifyNode:node_modules/vsce/node_modules/prebuild-install Completed in 1467ms
+844 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 1401ms (cache miss)
+845 timing reifyNode:node_modules/vsce/node_modules/mime Completed in 1490ms
+846 http fetch GET 200 https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 1415ms (cache miss)
+847 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz 1455ms (cache miss)
+848 http fetch GET 200 https://registry.npmjs.org/keytar/-/keytar-7.9.0.tgz 1402ms (cache miss)
+849 timing reifyNode:node_modules/vsce/node_modules/keytar Completed in 1492ms
+850 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 1456ms (cache miss)
+851 timing reifyNode:node_modules/vsce/node_modules/call-bind-apply-helpers Completed in 1501ms
+852 timing reifyNode:node_modules/vsce/node_modules/dom-serializer Completed in 1499ms
+853 http fetch GET 200 https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.1.tgz 1452ms (cache miss)
+854 timing reifyNode:node_modules/vsce/node_modules/es-errors Completed in 1505ms
+855 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-2.1.0.tgz 1424ms (cache miss)
+856 timing reifyNode:node_modules/vsce/node_modules/tar-fs Completed in 1513ms
+857 timing reifyNode:node_modules/vsce/node_modules/markdown-it/node_modules/entities Completed in 1520ms
+858 http fetch GET 200 https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.0.tgz 1476ms (cache miss)
+859 timing reifyNode:node_modules/vsce/node_modules/encoding-sniffer Completed in 1558ms
+860 http fetch GET 200 https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz 1490ms (cache miss)
+861 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 1509ms (cache miss)
+862 timing reifyNode:node_modules/vsce/node_modules/minimist Completed in 1565ms
+863 timing reifyNode:node_modules/vsce/node_modules/css-what Completed in 1570ms
+864 http fetch GET 200 https://registry.npmjs.org/vsce/-/vsce-2.15.0.tgz 1544ms (cache miss)
+865 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.13.1.tgz 1539ms (cache miss)
+866 timing reifyNode:node_modules/vsce/node_modules/qs Completed in 1581ms
+867 warn deprecated vsce@2.15.0: vsce has been renamed to @vscode/vsce. Install using @vscode/vsce instead.
+868 timing reifyNode:node_modules/vsce Completed in 1586ms
+869 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.3.0.tgz 1524ms (cache miss)
+870 timing reifyNode:node_modules/vsce/node_modules/node-addon-api Completed in 1585ms
+871 http fetch GET 200 https://registry.npmjs.org/cheerio-select/-/cheerio-select-2.1.0.tgz 1520ms (cache miss)
+872 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 1552ms (cache miss)
+873 timing reifyNode:node_modules/vsce/node_modules/readable-stream Completed in 1601ms
+874 http fetch GET 200 https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 1536ms (cache miss)
+875 timing reifyNode:node_modules/vsce/node_modules/cheerio-select Completed in 1604ms
+876 timing reifyNode:node_modules/vsce/node_modules/nth-check Completed in 1607ms
+877 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 1579ms (cache miss)
+878 timing reifyNode:node_modules/vsce/node_modules/math-intrinsics Completed in 1618ms
+879 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.3.tgz 1686ms (cache miss)
+880 timing reifyNode:node_modules/vsce/node_modules/object-inspect Completed in 1728ms
+881 http fetch GET 200 https://registry.npmjs.org/typed-rest-client/-/typed-rest-client-1.8.11.tgz 1650ms (cache miss)
+882 timing reifyNode:node_modules/vsce/node_modules/typed-rest-client Completed in 1734ms
+883 http fetch GET 200 https://registry.npmjs.org/htmlparser2/-/htmlparser2-9.1.0.tgz 1668ms (cache miss)
+884 timing reifyNode:node_modules/vsce/node_modules/htmlparser2 Completed in 1744ms
+885 http fetch GET 200 https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz 1719ms (cache miss)
+886 timing reifyNode:node_modules/vsce/node_modules/xmlbuilder Completed in 1757ms
+887 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 1721ms (cache miss)
+888 timing reifyNode:node_modules/vsce/node_modules/iconv-lite Completed in 1791ms
+889 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.6.3.tgz 1757ms (cache miss)
+890 timing reifyNode:node_modules/vsce/node_modules/node-abi/node_modules/semver Completed in 1811ms
+891 http fetch GET 200 https://registry.npmjs.org/domutils/-/domutils-3.1.0.tgz 1807ms (cache miss)
+892 timing reifyNode:node_modules/vsce/node_modules/domutils Completed in 1885ms
+893 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 1846ms (cache miss)
+894 http fetch GET 200 https://registry.npmjs.org/markdown-it/-/markdown-it-12.3.2.tgz 1823ms (cache miss)
+895 timing reifyNode:node_modules/vsce/node_modules/markdown-it Completed in 1912ms
+896 timing reifyNode:node_modules/vsce/node_modules/entities Completed in 1914ms
+897 http fetch GET 200 https://registry.npmjs.org/parse5/-/parse5-7.2.1.tgz 1872ms (cache miss)
+898 timing reifyNode:node_modules/vsce/node_modules/parse5 Completed in 1947ms
+899 http fetch GET 200 https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz 1885ms (cache miss)
+900 timing reifyNode:node_modules/vsce/node_modules/css-select Completed in 1954ms
+901 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-6.21.0.tgz 2078ms (cache miss)
+902 timing reifyNode:node_modules/vsce/node_modules/undici Completed in 2151ms
+903 http fetch GET 200 https://registry.npmjs.org/azure-devops-node-api/-/azure-devops-node-api-11.2.0.tgz 2101ms (cache miss)
+904 timing reifyNode:node_modules/vsce/node_modules/azure-devops-node-api Completed in 2196ms
+905 http fetch GET 200 https://registry.npmjs.org/cheerio/-/cheerio-1.0.0.tgz 2140ms (cache miss)
+906 timing reifyNode:node_modules/vsce/node_modules/cheerio Completed in 2235ms
+907 http fetch GET 200 https://registry.npmjs.org/underscore/-/underscore-1.13.7.tgz 2338ms (cache miss)
+908 timing reifyNode:node_modules/vsce/node_modules/underscore Completed in 2381ms
+909 timing reify:unpack Completed in 2382ms
+910 timing reify:unretire Completed in 0ms
+911 timing build:queue Completed in 5ms
+912 timing build:link:node_modules/vsce Completed in 19ms
+913 timing build:link:node_modules/vsce/node_modules/markdown-it Completed in 19ms
+914 timing build:link:node_modules/vsce/node_modules/mime Completed in 19ms
+915 timing build:link:node_modules/vsce/node_modules/node-abi/node_modules/semver Completed in 18ms
+916 timing build:link:node_modules/vsce/node_modules/rc Completed in 19ms
+917 timing build:link:node_modules/vsce/node_modules/prebuild-install Completed in 19ms
+918 timing build:link:node_modules/vsce/node_modules/semver Completed in 19ms
+919 timing build:link Completed in 20ms
+920 info run keytar@7.9.0 install node_modules/vsce/node_modules/keytar prebuild-install || npm run build
+921 info run keytar@7.9.0 install { code: 0, signal: null }
+922 timing build:run:install:node_modules/vsce/node_modules/keytar Completed in 955ms
+923 timing build:run:install Completed in 956ms
+924 timing build:deps Completed in 984ms
+925 timing build Completed in 984ms
+926 timing reify:build Completed in 984ms
+927 timing reify:trash Completed in 0ms
+928 timing reify Completed in 6770ms
+929 silly ADD node_modules/vsce
+930 silly ADD node_modules/vsce/node_modules/pend
+931 silly ADD node_modules/vsce/node_modules/fd-slicer
+932 silly ADD node_modules/vsce/node_modules/buffer-crc32
+933 silly ADD node_modules/vsce/node_modules/xmlbuilder
+934 silly ADD node_modules/vsce/node_modules/sax
+935 silly ADD node_modules/vsce/node_modules/math-intrinsics
+936 silly ADD node_modules/vsce/node_modules/hasown
+937 silly ADD node_modules/vsce/node_modules/has-symbols
+938 silly ADD node_modules/vsce/node_modules/gopd
+939 silly ADD node_modules/vsce/node_modules/es-object-atoms
+940 silly ADD node_modules/vsce/node_modules/es-define-property
+941 silly ADD node_modules/vsce/node_modules/dunder-proto
+942 silly ADD node_modules/vsce/node_modules/function-bind
+943 silly ADD node_modules/vsce/node_modules/call-bind-apply-helpers
+944 silly ADD node_modules/vsce/node_modules/get-intrinsic
+945 silly ADD node_modules/vsce/node_modules/call-bound
+946 silly ADD node_modules/vsce/node_modules/side-channel-weakmap
+947 silly ADD node_modules/vsce/node_modules/side-channel-map
+948 silly ADD node_modules/vsce/node_modules/side-channel-list
+949 silly ADD node_modules/vsce/node_modules/object-inspect
+950 silly ADD node_modules/vsce/node_modules/es-errors
+951 silly ADD node_modules/vsce/node_modules/side-channel
+952 silly ADD node_modules/vsce/node_modules/underscore
+953 silly ADD node_modules/vsce/node_modules/qs
+954 silly ADD node_modules/vsce/node_modules/safe-buffer
+955 silly ADD node_modules/vsce/node_modules/util-deprecate
+956 silly ADD node_modules/vsce/node_modules/string_decoder
+957 silly ADD node_modules/vsce/node_modules/ieee754
+958 silly ADD node_modules/vsce/node_modules/base64-js
+959 silly ADD node_modules/vsce/node_modules/buffer
+960 silly ADD node_modules/vsce/node_modules/readable-stream
+961 silly ADD node_modules/vsce/node_modules/fs-constants
+962 silly ADD node_modules/vsce/node_modules/bl
+963 silly ADD node_modules/vsce/node_modules/tar-stream
+964 silly ADD node_modules/vsce/node_modules/chownr
+965 silly ADD node_modules/vsce/node_modules/has-flag
+966 silly ADD node_modules/vsce/node_modules/mimic-response
+967 silly ADD node_modules/vsce/node_modules/simple-concat
+968 silly ADD node_modules/vsce/node_modules/decompress-response
+969 silly ADD node_modules/vsce/node_modules/mute-stream
+970 silly ADD node_modules/vsce/node_modules/strip-json-comments
+971 silly ADD node_modules/vsce/node_modules/ini
+972 silly ADD node_modules/vsce/node_modules/deep-extend
+973 silly ADD node_modules/vsce/node_modules/end-of-stream
+974 silly ADD node_modules/vsce/node_modules/tunnel-agent
+975 silly ADD node_modules/vsce/node_modules/tar-fs
+976 silly ADD node_modules/vsce/node_modules/simple-get
+977 silly ADD node_modules/vsce/node_modules/rc
+978 silly ADD node_modules/vsce/node_modules/pump
+979 silly ADD node_modules/vsce/node_modules/node-abi
+980 silly ADD node_modules/vsce/node_modules/node-abi/node_modules/semver
+981 silly ADD node_modules/vsce/node_modules/napi-build-utils
+982 silly ADD node_modules/vsce/node_modules/mkdirp-classic
+983 silly ADD node_modules/vsce/node_modules/minimist
+984 silly ADD node_modules/vsce/node_modules/github-from-package
+985 silly ADD node_modules/vsce/node_modules/expand-template
+986 silly ADD node_modules/vsce/node_modules/detect-libc
+987 silly ADD node_modules/vsce/node_modules/concat-map
+988 silly ADD node_modules/vsce/node_modules/balanced-match
+989 silly ADD node_modules/vsce/node_modules/brace-expansion
+990 silly ADD node_modules/vsce/node_modules/uc.micro
+991 silly ADD node_modules/vsce/node_modules/mdurl
+992 silly ADD node_modules/vsce/node_modules/linkify-it
+993 silly ADD node_modules/vsce/node_modules/argparse
+994 silly ADD node_modules/vsce/node_modules/yallist
+995 silly ADD node_modules/vsce/node_modules/prebuild-install
+996 silly ADD node_modules/vsce/node_modules/node-addon-api
+997 silly ADD node_modules/vsce/node_modules/wrappy
+998 silly ADD node_modules/vsce/node_modules/safer-buffer
+999 silly ADD node_modules/vsce/node_modules/lru-cache
+1000 silly ADD node_modules/vsce/node_modules/path-is-absolute
+1001 silly ADD node_modules/vsce/node_modules/once
+1002 silly ADD node_modules/vsce/node_modules/inherits
+1003 silly ADD node_modules/vsce/node_modules/inflight
+1004 silly ADD node_modules/vsce/node_modules/fs.realpath
+1005 silly ADD node_modules/vsce/node_modules/whatwg-encoding
+1006 silly ADD node_modules/vsce/node_modules/iconv-lite
+1007 silly ADD node_modules/vsce/node_modules/entities
+1008 silly ADD node_modules/vsce/node_modules/nth-check
+1009 silly ADD node_modules/vsce/node_modules/color-name
+1010 silly ADD node_modules/vsce/node_modules/domelementtype
+1011 silly ADD node_modules/vsce/node_modules/css-what
+1012 silly ADD node_modules/vsce/node_modules/css-select
+1013 silly ADD node_modules/vsce/node_modules/boolbase
+1014 silly ADD node_modules/vsce/node_modules/whatwg-mimetype
+1015 silly ADD node_modules/vsce/node_modules/undici
+1016 silly ADD node_modules/vsce/node_modules/parse5-parser-stream
+1017 silly ADD node_modules/vsce/node_modules/parse5-htmlparser2-tree-adapter
+1018 silly ADD node_modules/vsce/node_modules/parse5
+1019 silly ADD node_modules/vsce/node_modules/htmlparser2
+1020 silly ADD node_modules/vsce/node_modules/encoding-sniffer
+1021 silly ADD node_modules/vsce/node_modules/domutils
+1022 silly ADD node_modules/vsce/node_modules/domhandler
+1023 silly ADD node_modules/vsce/node_modules/dom-serializer
+1024 silly ADD node_modules/vsce/node_modules/cheerio-select
+1025 silly ADD node_modules/vsce/node_modules/color-convert
+1026 silly ADD node_modules/vsce/node_modules/supports-color
+1027 silly ADD node_modules/vsce/node_modules/escape-string-regexp
+1028 silly ADD node_modules/vsce/node_modules/ansi-styles
+1029 silly ADD node_modules/vsce/node_modules/tunnel
+1030 silly ADD node_modules/vsce/node_modules/yazl
+1031 silly ADD node_modules/vsce/node_modules/yauzl
+1032 silly ADD node_modules/vsce/node_modules/xml2js
+1033 silly ADD node_modules/vsce/node_modules/url-join
+1034 silly ADD node_modules/vsce/node_modules/typed-rest-client
+1035 silly ADD node_modules/vsce/node_modules/tmp
+1036 silly ADD node_modules/vsce/node_modules/semver
+1037 silly ADD node_modules/vsce/node_modules/read
+1038 silly ADD node_modules/vsce/node_modules/parse-semver
+1039 silly ADD node_modules/vsce/node_modules/minimatch
+1040 silly ADD node_modules/vsce/node_modules/mime
+1041 silly ADD node_modules/vsce/node_modules/markdown-it
+1042 silly ADD node_modules/vsce/node_modules/markdown-it/node_modules/entities
+1043 silly ADD node_modules/vsce/node_modules/leven
+1044 silly ADD node_modules/vsce/node_modules/keytar
+1045 silly ADD node_modules/vsce/node_modules/hosted-git-info
+1046 silly ADD node_modules/vsce/node_modules/glob
+1047 silly ADD node_modules/vsce/node_modules/commander
+1048 silly ADD node_modules/vsce/node_modules/cheerio
+1049 silly ADD node_modules/vsce/node_modules/chalk
+1050 silly ADD node_modules/vsce/node_modules/azure-devops-node-api
+1051 timing command:install Completed in 6781ms
+1052 verbose exit 0
+1053 timing npm Completed in 7303ms
+1054 info ok

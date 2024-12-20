@@ -1054,6 +1054,25 @@
 				"foreground": "#A77283"
 			}
 		},
+
+		//REACT
+		{
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#8eeee1"
+			}
+		},
+		{
+			"scope": [
+				"meta.jsx.children.js",
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js"
+			],
+			"settings":{
+				"foreground": "#DFDFDF",
+			}
+		},
 		{
 			"scope": [
 				"comment",

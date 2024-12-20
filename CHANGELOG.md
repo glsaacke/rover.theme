@@ -1,11 +1,17 @@
 # Change Log
+## [v0.5.0]
+12/20/2024
+
+- Added additional highlighting scopes to support React development
+<br>
+
 ## [v0.4.9]
-2/8/2024
+4/15/2024
 
 - Minor adjustments to variable coloring
 <br>
 
-# Change Log
+
 ## [v0.4.8]
 2/8/2024
 
@@ -17,6 +23,8 @@
 1/30/2024
 
 - Minor language adjustment in readme & changelog
+<br>
+
 
 ## [v0.4.6]
 1/30/2024

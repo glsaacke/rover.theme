@@ -1,9 +1,24 @@
 # Change Log
+## [v0.7.1]
+12/21/2024
+
+- Small color adjustment to jsx tag scopes
+<br>
+
+
+## [v0.7.0]
+12/21/2024
+
+- Fixed various issues related to the 5.0 release
+<br>
+
+
 ## [v0.5.0]
 12/20/2024
 
 - Added additional highlighting scopes to support React development
 <br>
+
 
 ## [v0.4.9]
 4/15/2024

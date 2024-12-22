@@ -1100,7 +1100,15 @@
 				"support.class.component.js"
 			],
 			"settings": {
-				"foreground": "#fa526b",
+				"foreground": "#c25688",
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#A77283",
 			}
 		},
 		{

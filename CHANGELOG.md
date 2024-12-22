@@ -1,4 +1,11 @@
 # Change Log
+## [v0.8.1]
+12/21/2024
+
+- Slightly changed colors on React specific highlighting
+<br>
+
+
 ## [v0.8.0]
 12/21/2024
 

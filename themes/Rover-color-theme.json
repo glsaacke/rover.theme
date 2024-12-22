@@ -1075,6 +1075,36 @@
 		},
 		{
 			"scope": [
+				"meta.brace.round.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+				"punctuation.section.embedded.begin.js",
+				"punctuation.section.embedded.end.js",
+			],
+			"settings": {
+				"foreground": "#ffe207",
+			}
+		},
+		{
+			"scope": [
+				"meta.brace.square.js",
+				"punctuation.definition.binding-pattern.array.js",
+			],
+			"settings": {
+				"foreground": "#df60da",
+
+			}
+		},
+		{
+			"scope": [
+				"support.class.component.js"
+			],
+			"settings": {
+				"foreground": "#fa526b",
+			}
+		},
+		{
+			"scope": [
 				"comment",
 				"comment.block",
 				"comment.block.documentation",

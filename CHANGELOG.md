@@ -1,4 +1,18 @@
 # Change Log
+## [v0.8.0]
+12/21/2024
+
+- Reworked punctuation scope highlighting to be more visible and less complex
+<br>
+
+
+## [v0.7.6]
+12/21/2024
+
+-Various minor fixes
+<br>
+
+
 ## [v0.7.1]
 12/21/2024
 

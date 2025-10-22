@@ -5,5 +5,3 @@ TO RELEASE AN UPDATE
 - Run 'vsce publish (major/minor/patch)'
 
 Check VS Code Marketplace to ensure it updated
-
-Token: A7KglCQNEnZ7SuXBvooN47hRn7z8Yx8I1C7cn6t63KfULJSCpjANJQQJ99ALACAAAAAZ25JCAAASAZDOtgLo

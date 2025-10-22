@@ -1055,7 +1055,7 @@
 			}
 		},
 
-		//REACT
+		//REACT SVELTE
 		{
 			"scope": [
 			],
@@ -1065,9 +1065,20 @@
 		},
 		{
 			"scope": [
+				"keyword.other.svelte"
+			],
+			"settings": {
+				"foreground": "#DFDFDF",
+			}
+		},
+		{
+			"scope": [
 				"meta.jsx.children.js",
 				"punctuation.definition.tag.begin.js",
-				"punctuation.definition.tag.end.js"
+				"punctuation.definition.tag.end.js",
+				"punctuation.definition.tag.begin.svelte",
+				"punctuation.definition.tag.end.svelte",
+				"text.svelte"
 			],
 			"settings":{
 				"foreground": "#ABB2BF",
@@ -1080,6 +1091,11 @@
 				"punctuation.definition.parameters.end.js",
 				"punctuation.section.embedded.begin.js",
 				"punctuation.section.embedded.end.js",
+				"meta.brace.round.ts",
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.end.ts",
+				"punctuation.section.embedded.begin.ts",
+				"punctuation.section.embedded.end.ts",
 			],
 			"settings": {
 				"foreground": "#ffe207",

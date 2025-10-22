@@ -1,4 +1,11 @@
 # Change Log
+## [0.8.2]
+10/21/2025
+
+- Added Svelte specific highlighting
+<br>
+
+
 ## [v0.8.1]
 12/21/2024
 
